@@ -4,9 +4,10 @@
 import PackageDescription
 
 let package = Package(
-    name: "SwiftLibExif",
+    name: "Clibexif",
     pkgConfig: "libexif",
     providers: [
-        .brew(["libexif"])
+        .brew(["libexif"]),
+        .apt(["libexif"]),
     ]
 )
