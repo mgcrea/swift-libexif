@@ -1,5 +1,5 @@
 module SwiftLibExif [system] {
-  header "shim.h"
-  link "libexif"
-  export *
+    header "/usr/local/include/libexif/exif-data-type.h"
+    link "libexif"
+    export *
 }
