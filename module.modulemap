@@ -1,6 +1,5 @@
 module Clibexif [system] {
-    header "shim.h"
-    header "/usr/local/include/libexif/exif-data.h"
+    umbrella "/usr/local/Cellar/libexif/0.6.21/include/libexif"
     link "libexif"
     export *
 }
