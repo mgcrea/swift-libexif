@@ -1,4 +1,5 @@
 module Clibexif [system] {
+    header "shim.h"
     header "/usr/local/include/libexif/exif-data.h"
     link "libexif"
     export *
