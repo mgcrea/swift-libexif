@@ -1,0 +1,5 @@
+module SwiftLibExif [system] {
+  header "shim.h"
+  link "libexif"
+  export *
+}
